@@ -1,0 +1,546 @@
+@media screen and (max-width: 1340px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #s-logo {
+    width: 3%;
+    margin: 0 0 1.5vw 0;
+  }
+  .navbar ul {
+    width: 80%;
+  }
+  .navbar ul li {
+    font-size: 1.6vw;
+  }
+
+  .hero {
+    justify-content: space-evenly;
+  }
+  .about-me {
+    justify-content: space-around;
+  }
+  .about-me a {
+    transition-property: none;
+    transition-duration: 0ms;
+    font-size: 1.4vw;
+    padding: 0.35vw;
+  }
+  .about-me a:hover {
+    padding: 0.35vw;
+  }
+  #arrowicon {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+  }
+  #arrowicon:hover {
+    visibility: hidden;
+    animation: none;
+  }
+  .about-me a:hover #arrowicon {
+    width: 0;
+    transition-property: none;
+    animation: none;
+    transform: scale(0);
+  }
+  .about-me h1 {
+    font-size: 2.8vw;
+  }
+  .about-me p {
+    font-size: 1.3vw;
+  }
+  .img-sec {
+    width: 35%;
+  }
+
+  .my-web-designs-sec {
+    width: 25%;
+    font-size: 1.3vw;
+  }
+  .my-web-designs-sec h3 {
+    font-size: 2.2vw;
+  }
+  .web-design-explain-sec {
+    width: 65%;
+    margin: 0;
+    font-size: 1.3vw;
+  }
+
+  .achiv-1,
+  .achiv-2,
+  .achiv-3 {
+    width: 12%;
+    margin: 0 auto;
+  }
+  .achiv-1 span,
+  .achiv-2 span,
+  .achiv-3 span {
+    display: block;
+    font-size: 2.2vw;
+  }
+
+  .my-work-sec h3 {
+    font-size: 2.2vw;
+  }
+  .list-1 ul,
+  .list-2 ul {
+    width: 95%;
+  }
+
+  .education-sec h3 {
+    font-size: 2.2vw;
+  }
+  .education-content {
+    width: 95%;
+  }
+  .school-sec h4,
+  .college-sec h4 {
+    font-size: 1.4vw;
+  }
+  .school-details,
+  .college-details {
+    font-size: 1.3vw;
+  }
+  .detailes-sec h4 {
+    font-size: 1.4vw;
+  }
+
+  .certificate-sec h3 {
+    font-size: 2.2vw;
+  }
+  #lst-of-certificate {
+    width: 95%;
+  }
+  .cert-one p,
+  .cert p {
+    font-size: 1.3vw;
+  }
+  .cert-one p span,
+  .cert p span {
+    display: block;
+    font-size: 1vw;
+  }
+
+  .blog-sec ul {
+    width: 90%;
+  }
+  .blog-sec h3 {
+    font-size: 2.2vw;
+  }
+  .blog-sec ul li p {
+    font-size: 1.3vw;
+  }
+  .blog-sec ul li a {
+    font-size: 1vw;
+  }
+
+  .skill-chart h3 {
+    font-size: 2.2vw;
+  }
+  #skl-ul-1 li h4 {
+    font-size: 1.5vw;
+  }
+  .skill-name {
+    font-size: 1.3vw;
+  }
+
+  .partners h3 {
+    font-size: 2.2vw;
+  }
+
+  .footer h3 {
+    font-size: 2.2vw;
+  }
+  .foot-left-one h4,
+  .foot-left-two h4,
+  .foot-right-one h4,
+  .foot-right-two h4 {
+    font-size: 1.5vw;
+  }
+  .foot-left-one p,
+  .foot-left-two p,
+  .foot-right-one p,
+  .foot-right-two p {
+    font-size: 1.3vw;
+  }
+
+  #sayHi {
+    font-size: 1vw;
+  }
+  .contact-me-sec ul li {
+    width: 9%;
+  }
+
+  #cp-rgt {
+    font-size: 0.9vw;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .hero {
+    position: relative;
+    margin: 0 auto;
+    justify-content: start;
+    align-items: start;
+  }
+  .about-me {
+    width: 80%;
+    margin: 0 0 0 2vw;
+  }
+  .about-me h1 {
+    font-size: 3vw;
+  }
+  .about-me p {
+    font-size: 1.7vw;
+  }
+  .img-sec {
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 2vw;
+  }
+  .about-me a {
+    transition-property: none;
+    transition-duration: 0ms;
+    font-size: 1.6vw;
+    padding: 0.35vw;
+  }
+
+  .my-web-designs-sec {
+    width: 22%;
+    font-size: 1.7vw;
+  }
+  .my-web-designs-sec h3 {
+    font-size: 2.6vw;
+  }
+  .web-design-explain-sec {
+    width: 70%;
+    margin: 0;
+    font-size: 1.7vw;
+  }
+
+  .achiv-1,
+  .achiv-2,
+  .achiv-3 {
+    width: 13%;
+    margin: 0 auto;
+  }
+  .achiv-1 span,
+  .achiv-2 span,
+  .achiv-3 span {
+    display: block;
+    font-size: 2.6vw;
+  }
+
+  .my-work-sec h3 {
+    font-size: 2.6vw;
+  }
+  .work-tags {
+    font-size: 1.7vw;
+  }
+  .list-1-ul li,
+  .list-2-ul li {
+    width: 24%;
+  }
+  .list-1 ul,
+  .list-2 ul {
+    width: 95%;
+  }
+
+  .education-sec {
+    height: 65vw;
+    margin-bottom: 10vw;
+  }
+  .education-sec h3 {
+    font-size: 2.6vw;
+  }
+  .education-content {
+    width: 95%;
+  }
+  .school-sec h4,
+  .college-sec h4 {
+    font-size: 1.9vw;
+  }
+  .school-details,
+  .college-details {
+    font-size: 1.7vw;
+  }
+  .detailes-sec h4 {
+    font-size: 1.9vw;
+  }
+
+  .certificate-sec h3 {
+    font-size: 2.6vw;
+  }
+  #lst-of-certificate {
+    width: 95%;
+  }
+  .cert-one p,
+  .cert p {
+    font-size: 1.7vw;
+  }
+  .cert-one p span,
+  .cert p span {
+    display: block;
+    font-size: 1.3vw;
+  }
+
+  .blog-sec ul {
+    width: 90%;
+  }
+  .blog-sec h3 {
+    font-size: 2.6vw;
+  }
+  .blog-sec ul li p {
+    font-size: 1.7vw;
+  }
+  .blog-sec ul li a {
+    font-size: 1.4vw;
+  }
+
+  .skill-chart h3 {
+    font-size: 2.6vw;
+  }
+  #skl-ul-1 li h4 {
+    font-size: 1.9vw;
+  }
+  .skill-name {
+    font-size: 1.7vw;
+  }
+
+  .partners h3 {
+    font-size: 2.6vw;
+  }
+
+  .footer h3 {
+    font-size: 2.6vw;
+  }
+  .foot-left-one h4,
+  .foot-left-two h4,
+  .foot-right-one h4,
+  .foot-right-two h4 {
+    font-size: 1.9vw;
+  }
+  .foot-left-one p,
+  .foot-left-two p,
+  .foot-right-one p,
+  .foot-right-two p {
+    font-size: 1.7vw;
+  }
+
+  #sayHi {
+    font-size: 1.3vw;
+  }
+  .contact-me-sec ul li {
+    width: 9%;
+  }
+
+  #cp-rgt {
+    font-size: 1vw;
+  }
+
+
+}
+
+@media screen and (max-width: 448px) {
+  .navbar ul li {
+    font-size: 1.7vw;
+  }
+  .about-me {
+    width: 95%;
+  }
+  .about-me h1 {
+    width: 80%;
+    font-size: 3vw;
+  }
+  .about-me p {
+    font-size: 1.9vw;
+  }
+  .img-sec {
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 2vw;
+  }
+  .about-me a {
+    transition-property: none;
+    transition-duration: 0ms;
+    font-size: 1.65vw;
+    padding: 0.35vw;
+  }
+
+  .second-sec {
+    margin: 10vw 0 0 0;
+  }
+  .my-web-designs-sec {
+    width: 20%;
+    font-size: 1.7vw;
+  }
+  .my-web-designs-sec h3 {
+    font-size: 3vw;
+  }
+  .web-design-explain-sec {
+    width: 75%;
+    margin: 0;
+    font-size: 1.9vw;
+  }
+
+  .achivments-sec {
+    margin: 10vw 0;
+  }
+  .achiv-1,
+  .achiv-2,
+  .achiv-3 {
+    width: 20%;
+    margin: 0 auto;
+    font-size: 1.9vw;
+  }
+  .achiv-1 span,
+  .achiv-2 span,
+  .achiv-3 span {
+    display: block;
+    font-size: 3vw;
+  }
+
+  .my-work-sec h3 {
+    font-size: 3vw;
+  }
+  .work-tags {
+    font-size: 1.9vw;
+  }
+  .list-1 ul,
+  .list-2 ul {
+    width: 95%;
+    flex-direction: column;
+  }
+  .list-1-ul li,
+.list-2-ul li {
+  width: 80%;
+}
+
+  .education-sec {
+    height: 88vw;
+    margin-bottom: 10vw;
+  }
+  .education-sec h3 {
+    font-size: 3vw;
+  }
+  .education-content {
+    width: 95%;
+  }
+  .school-sec h4,
+  .college-sec h4 {
+    font-size: 2.2vw;
+  }
+  .school-details,
+  .college-details {
+    font-size: 1.9vw;
+  }
+  .detailes-sec h4 {
+    font-size: 2.2vw;
+  }
+
+  .certificate-sec h3 {
+    font-size: 3vw;
+  }
+  #lst-of-certificate {
+    width: 95%;
+    padding: 5vw;
+  }
+  .cert-one p,
+  .cert p {
+    font-size: 1.9vw;
+  }
+  .cert-one p span,
+  .cert p span {
+    display: block;
+    font-size: 1.5vw;
+  }
+
+  .blog-sec ul {
+    width: 96%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+  }
+  .blog-sec ul li {
+    width: 80%;
+    margin: 1.5vw 0;
+  }
+  .blog-sec h3 {
+    font-size: 3vw;
+    margin: 5vw;
+  }
+  .blog-sec ul li p {
+    font-size: 1.9vw;
+  }
+  .blog-sec ul li a {
+    font-size: 1.5vw;
+  }
+
+  .skill-chart h3 {
+    font-size: 3vw;
+  }
+  #skl-ul-1 {
+    flex-direction: column;
+  }
+  #skl-ul-1 li {
+    width: 90%;
+  }
+  #skl-ul-1 li h4 {
+    font-size: 2.2vw;
+  }
+  .skill-name {
+    font-size: 1.9vw;
+  }
+
+  .partners h3 {
+    font-size: 3vw;
+    margin: 5vw;
+  }
+  .partners ul li img {
+    width: 80%;
+  }
+
+  .footer h3 {
+    font-size: 3vw;
+    margin: 5vw;
+  }
+  .footer-main {
+    align-items: start;
+  }
+  .foot-left-one h4,
+  .foot-left-two h4,
+  .foot-right-one h4,
+  .foot-right-two h4 {
+    font-size: 2.2vw;
+  }
+  .foot-left-one p,
+  .foot-left-two p,
+  .foot-right-one p,
+  .foot-right-two p {
+    font-size: 1.9vw;
+  }
+
+  #sayHi {
+    font-size: 1.5vw;
+  }
+  .contact-me-sec ul {
+    margin: 0;
+  }
+  .contact-me-sec ul li {
+    width: 10%;
+  }
+
+  #cp-rgt {
+    font-size: 1.2vw;
+  }
+
+}
